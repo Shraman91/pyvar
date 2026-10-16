@@ -1,0 +1,46 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Video data and media outputs
+data/
+output/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
